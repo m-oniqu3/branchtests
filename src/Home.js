@@ -8,6 +8,9 @@ const Home = () => {
   //testing state
   const [name, setName] = useState("");
 
+  //another state
+  const [first, setfirst] = useState("");
+
   useEffect(() => {
     fetch(" http://localhost:8000/blogs")
       .then((res) => {
